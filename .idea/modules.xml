@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xdclass-security/xdclass-security.iml" filepath="$PROJECT_DIR$/xdclass-security/xdclass-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xdclass-security-app/xdclass-security-app.iml" filepath="$PROJECT_DIR$/xdclass-security-app/xdclass-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xdclass-security-browser/xdclass-security-browser.iml" filepath="$PROJECT_DIR$/xdclass-security-browser/xdclass-security-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xdclass-security-core/xdclass-security-core.iml" filepath="$PROJECT_DIR$/xdclass-security-core/xdclass-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xdclass-security-demo/xdclass-security-demo.iml" filepath="$PROJECT_DIR$/xdclass-security-demo/xdclass-security-demo.iml" />
+    </modules>
+  </component>
+</project>
