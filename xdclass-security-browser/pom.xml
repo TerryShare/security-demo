@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>xdclass-security-browser</artifactId>
+	<!-- Security-browser浏览器安全特定代码 -->
+	<parent>
+		<groupId>com.xdclass.security</groupId>
+		<artifactId>xdclass.security</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../xdclass-security</relativePath>
+	</parent>
+	<dependencies>
+	<!-- 引入security-core模块依赖 -->
+		<dependency>
+			<groupId>com.xdclass.security</groupId>
+			<artifactId>xdclass-security-core</artifactId>
+			<version>${xdclass.security.version}</version>
+		</dependency>
+		<!-- 分布式session共享 -->
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session</artifactId>
+		</dependency>
+	</dependencies>
+</project>
