@@ -14,10 +14,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="xdclass-security" target="1.8" />
-      <module name="xdclass-security-app" target="1.8" />
-      <module name="xdclass-security-browser" target="1.8" />
-      <module name="xdclass-security-core" target="1.8" />
-      <module name="xdclass-security-demo" target="1.8" />
+      <module name="xdclass-security-app" target="1.5" />
+      <module name="xdclass-security-browser" target="1.5" />
+      <module name="xdclass-security-core" target="1.5" />
+      <module name="xdclass-security-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
