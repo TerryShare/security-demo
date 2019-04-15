@@ -54,10 +54,11 @@ public class UserController {
 	@GetMapping("/{id:\\d+}")
 	@JsonView(UserDatailView.class)
 	public User gitInfo(@PathVariable String id) {
-		throw new UserNotExistexception(id); //使用自定义异常处理
-//		User user=new User();
-//		user.setUsername("tom");
-//		return user;
+	//	throw new UserNotExistexception(id); //使用自定义异常处理
+		System.out.println("进入 getinfo 服务");
+		User user=new User();
+		user.setUsername("tom");
+		return user;
 	}
 	
 	@PostMapping()
