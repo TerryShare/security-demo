@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/xdclass-security-browser/xdclass-security-browser.iml" filepath="$PROJECT_DIR$/xdclass-security-browser/xdclass-security-browser.iml" />
       <module fileurl="file://$PROJECT_DIR$/xdclass-security-core/xdclass-security-core.iml" filepath="$PROJECT_DIR$/xdclass-security-core/xdclass-security-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/xdclass-security-demo/xdclass-security-demo.iml" filepath="$PROJECT_DIR$/xdclass-security-demo/xdclass-security-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xdclass.security/xdclass.security.iml" filepath="$PROJECT_DIR$/xdclass.security/xdclass.security.iml" />
     </modules>
   </component>
 </project>

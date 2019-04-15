@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/xdclass-security-core/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-security-app/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-security-browser/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass.security/pom.xml" />
       </list>
     </option>
   </component>
