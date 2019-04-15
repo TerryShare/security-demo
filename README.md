@@ -11,3 +11,8 @@ Spring Security实现restful服务
 * security-core核心业务逻辑
 - security-demo测试用例
 + security主模块
+
+
+
+已完成:
+- security-demo Restful服务,相关测试用例已构建完成
