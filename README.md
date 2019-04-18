@@ -15,4 +15,4 @@ Spring Security实现restful服务
 
 
 已完成:
-- security-demo Restful服务,相关测试用例已构建完成
+- security-demo Restful服务,相关测试用例，拦截器，过滤器，swagger，Thread
