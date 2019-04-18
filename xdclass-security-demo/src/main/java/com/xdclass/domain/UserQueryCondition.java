@@ -1,7 +1,10 @@
 package com.xdclass.domain;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class UserQueryCondition {
 
+	@ApiModelProperty("用户名称")
 	private String username;
 	private int age;
 	private int ageTo;

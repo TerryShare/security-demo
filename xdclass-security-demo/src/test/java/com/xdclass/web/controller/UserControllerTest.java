@@ -1,8 +1,10 @@
 package com.xdclass.web.controller;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.fileUpload;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import java.io.UnsupportedEncodingException;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
@@ -13,6 +15,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
+import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MockMvcBuilder;
@@ -79,7 +82,6 @@ public class UserControllerTest {
 	}
 	@Test
 	public void whenCreatSuccess() throws Exception {
-		
 		Date date = new Date();
 		System.out.println(date.getTime());
 		String content = "{\"username\":\"tom\",\"password\":null,\"birthday\":"+date.getTime()+"}";
@@ -111,6 +113,15 @@ public class UserControllerTest {
 		mockMvc.perform(MockMvcRequestBuilders.delete("/user/1")
 				.contentType(MediaType.APPLICATION_JSON_UTF8))
 				.andExpect(status().isOk());
+	}
+
+	@Test
+	public void whenUploadSuccess() throws Exception {
+		String result = mockMvc.perform(fileUpload("/file")
+				.file(new MockMultipartFile("file", "test.txt", "multipart/form-data", "hello upload".getBytes("UTF-8"))))
+				.andExpect(status().isOk())
+				.andReturn().getResponse().getContentAsString();
+		System.out.println(result);
 	}
 	
 }

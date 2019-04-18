@@ -5,6 +5,8 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.web.PageableDefault;
@@ -39,6 +41,7 @@ public class UserController {
 	
 	@GetMapping() //映射 请求url到java方法
 	@JsonView(UserSimpleView.class)
+	@ApiOperation(value = "用户查询服务")
 	public List<User> query(UserQueryCondition queryCondition,@PageableDefault(page=2,size=17,sort="username.asc")Pageable pageable) {
 		System.out.println(queryCondition.toString());
 		System.out.println(pageable.getPageSize());
@@ -53,7 +56,7 @@ public class UserController {
 	
 	@GetMapping("/{id:\\d+}")
 	@JsonView(UserDatailView.class)
-	public User gitInfo(@PathVariable String id) {
+	public User gitInfo(@ApiParam(value = "需要删除的用户ID") @PathVariable String id) {
 	//	throw new UserNotExistexception(id); //使用自定义异常处理
 		System.out.println("进入 getinfo 服务");
 		User user=new User();
