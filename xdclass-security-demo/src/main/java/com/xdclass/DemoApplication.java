@@ -8,7 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication()
 @RestController
-@EnableSwagger2
+@EnableSwagger2 //http://localhost:8081/swagger-ui.html#/user45controller
 public class DemoApplication {
 
 	public static void main(String []args) {
@@ -17,6 +17,6 @@ public class DemoApplication {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "hello";
+		return "my name is terry";
 	}
 }
