@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e157f29a-529d-43ac-93c8-661a70e8555e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xdclass-security-browser/src/main/java/xdclass/security/securityconfig/BrowserSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-security-browser/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-security-browser/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-security-browser/xdclass-security-browser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-security-browser/xdclass-security-browser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-security-demo/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xdclass-security/target/" />
     <ignored path="$PROJECT_DIR$/xdclass-security-app/target/" />
@@ -81,26 +79,28 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="70" />
+          <entry key="txt" value="4" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="70" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="groovy" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -108,20 +108,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xdclass-security-browser/src/main/java/xdclass/security/securityconfig/BrowserSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xdclass-security-browser/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xdclass-security-browser/src/main/java/xdclass/security/securityconfig/BrowserSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -146,6 +146,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -371,7 +372,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555854234401" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555854387667" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="xdclass.security.securityconfig.BrowserSecurityConfig" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -382,7 +383,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -542,7 +543,7 @@
       <workItem from="1555464014329" duration="683000" />
       <workItem from="1555583243879" duration="15797000" />
       <workItem from="1555624263734" duration="798000" />
-      <workItem from="1555745317484" duration="1984000" />
+      <workItem from="1555745317484" duration="2235000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1555113948935</created>
@@ -607,7 +608,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555852363493</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="demo">
+      <created>1555854070796</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555854070796</updated>
+    </task>
+    <task id="LOCAL-00011" summary="one">
+      <created>1555854095094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555854095094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="one">
+      <created>1555854281852</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555854281852</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -643,13 +665,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37046000" />
+    <option name="totallyTimeSpent" value="37297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -665,7 +686,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.42409638" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.42409638" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -718,7 +739,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="one" />
+    <option name="LAST_COMMIT_MESSAGE" value="one" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/xdclass-security-demo/src/main/java/com/xdclass/controller/UserController.java" />
@@ -866,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-security-browser/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-security-demo/src/main/java/com/xdclass/domain/UserQueryCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -942,6 +957,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-security-browser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
