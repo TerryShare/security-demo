@@ -47,9 +47,9 @@
 	</build>
    <!-- 引入子模块 -->
 	<modules>
-		<module>../xdclass-security-app</module>
-		<module>../xdclass-security-browser</module>
-		<module>../xdclass-security-core</module>
-		<module>../xdclass-security-demo</module>
+		<module>xdclass-security-app</module>
+		<module>xdclass-security-browser</module>
+		<module>xdclass-security-core</module>
+		<module>xdclass-security-demo</module>
 	</modules>
 </project>

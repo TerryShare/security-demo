@@ -32,9 +32,15 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.springframework.ide.eclipse.core.springnature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>core</name>
+			<value>file:/D:/springsecurity/%E6%BA%90%E7%A0%81/project/p1o6vt/imooc-security-core</value>
+		</variable>
+	</variableList>
 </projectDescription>
